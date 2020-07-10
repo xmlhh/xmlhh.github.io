@@ -1,44 +1,44 @@
-#��Ŀ����ҳ��˵��
+# 项目所有页面说明
 
 
-###index.html  
-��վ��ҳ��������ע��|��¼�����û���Ϣ���л���ʾ�ģ���Ʒ����˵����ֱ�����ӹ�������ҳ����Ʒģ�顣��ҳ�Ѽ���õ�ƬЧ����
-
-
-
-###login.html  
-��¼ҳ��
-
-
-###register.html  
-ע��ҳ�棬�Ѽ����˳����ı�����֤Ч������Ч���ڿγ����ѽ������������
-
-
-###user_center_info.html  
-�û�����-�û���Ϣҳ �û����Ĺ���һ���鿴�û��Ļ�����Ϣ
-
-
-###user_center_order.html  
-�û�����-�û�����ҳ �û����Ĺ��ܶ����鿴�û���ȫ������
-
-
-###user_center_site.html  
-�û�����-�û��ջ���ַҳ �û����Ĺ��������鿴�������û����ջ���ַ
+### index.html  
+网站首页，顶部“注册|登录”和用户信息是切换显示的，商品分类菜单点击直接链接滚动到本页面商品模块。首页已加入幻灯片效果。
 
 
 
-###list.html  
-��Ʒ�б�ҳ����Ʒ����˵������ͣʱ�л���ʾ�����أ�����˵������ӵ���Ӧ��Ʒ���б�ҳ��
+### login.html  
+登录页面
 
 
-###detail.html  
-��Ʒ����ҳ��ĳһ����Ʒ����ϸ��Ϣ��
+### register.html  
+注册页面，已加入了初步的表单验证效果，此效果在课程中已讲述如何制作。
 
 
-###cart.html  
-�ҵĹ��ﳵҳ���г��ѷ��빺�ﳵ�ϵ���Ʒ
+### user_center_info.html  
+用户中心-用户信息页 用户中心功能一，查看用户的基本信息
 
 
-###place_order.html  
-�ύ����ҳ
+### user_center_order.html  
+用户中心-用户订单页 用户中心功能二，查看用户的全部订单
+
+
+### user_center_site.html  
+用户中心-用户收货地址页 用户中心功能三，查看和设置用户的收货地址
+
+
+
+### list.html  
+商品列表页，商品分类菜单鼠标悬停时切换显示和隐藏，点击菜单后链接到对应商品的列表页。
+
+
+### detail.html  
+商品详情页，某一件商品的详细信息。
+
+
+### cart.html  
+我的购物车页，列出已放入购物车上的商品
+
+
+### place_order.html  
+提交订单页
 
