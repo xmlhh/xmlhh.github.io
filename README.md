@@ -18,6 +18,10 @@ Youth is a book which cannot be closed when opened, the life is to set foot on t
 
 ### 汇编/反汇编
 
+### Linux
+
+### Windows
+
 
 ## 生活篇
 
