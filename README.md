@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# Welcome to Xmlhh's Blogs
 
-You can use the [editor on GitHub](https://github.com/xmlhh/xmlhh.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Youth is a book which cannot be closed when opened, the life is to set foot on the road that can not return the head, since insist, do not easily give up!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 技术篇
 
-### Markdown
+### C/C++
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Qt
 
-```markdown
-Syntax highlighted code block
+### Go
 
-# Header 1
-## Header 2
-### Header 3
+### Python
 
-- Bulleted
-- List
+### Web前端
 
-1. Numbered
-2. List
+### Android
 
-**Bold** and _Italic_ and `Code` text
+### 汇编/反汇编
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 生活篇
 
-### Jekyll Themes
+### 音乐
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xmlhh/xmlhh.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 电影
 
-### Support or Contact
+### 轮滑
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### B-Box
+
+
+## 杂谈篇
+
