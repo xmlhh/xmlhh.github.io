@@ -1,4 +1,4 @@
-# Welcome to Xmlhh's Blogs
+# Welcome to Xmlhh's Blog
 
 Youth is a book which cannot be closed when opened, the life is to set foot on the road that can not return the head, since insist, do not easily give up!
 
