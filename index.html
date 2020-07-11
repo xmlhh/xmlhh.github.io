@@ -2,323 +2,43 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>天天生鲜-首页</title>
-	<link rel="stylesheet" type="text/css" href="FreshEveryDay/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="FreshEveryDay/css/main.css">
-	<script type="text/javascript" src="FreshEveryDay/js/jquery-1.12.4.min.js"></script>
-	<script type="text/javascript" src="FreshEveryDay/js/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="FreshEveryDay/js/slide.js"></script>
+	<title>天天生鲜-登录</title>
+	<link rel="stylesheet" type="text/css" href="UI/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="UI/css/main.css">
 </head>
 <body>
-	<div class="header_con">
-		<div class="header">
-			<div class="welcome fl">欢迎来到天天生鲜!</div>
-			<div class="fr">
-				<div class="login_info fl">
-					欢迎您：<em>张 山</em>
+	<div class="login_top clearfix">
+		<a href="index.html" class="login_logo"><img src="UI/images/logo02.png"></a>	
+	</div>
+
+	<div class="login_form_bg">
+		<div class="login_form_wrap clearfix">
+			<div class="login_banner fl"></div>
+			<div class="slogan fl">日夜兼程 · 急速送达</div>
+			<div class="login_form fr">
+				<div class="login_title clearfix">
+					<h1>用户登录</h1>
+					<a href="#">立即注册</a>
 				</div>
-				<div class="login_btn fl">
-					<a href="FreshEveryDay/login.html">登录</a>
-					<span>|</span>
-					<a href="FreshEveryDay/register.html">注册</a>
+				<div class="form_input">
+					<form>
+						<input type="text" name="username" class="name_input" placeholder="请输入用户名">
+						<div class="user_error">输入错误</div>
+						<input type="password" name="pwd" class="pass_input" placeholder="请输入密码">
+						<div class="pwd_error">输入错误</div>
+						<div class="more_input clearfix">
+							<input type="checkbox" name="">
+							<label>记住用户名</label>
+							<a href="#">忘记密码</a>
+						</div>
+						<input type="submit" name="" value="登录" class="input_submit">
+					</form>
 				</div>
-				<div class="user_link fl">
-					<span>|</span>
-					<a href="FreshEveryDay/user_center_info.html">用户中心</a>
-					<span>|</span>
-					<a href="FreshEveryDay/cart.html">我的购物车</a>
-					<span>|</span>
-					<a href="FreshEveryDay/user_center_order.html">我的订单</a>
-				</div>
 			</div>
-		</div>		
-	</div>
-
-	<div class="search_bar clearfix">
-		<a href="index.html" class="logo fl"><img src="FreshEveryDay/images/logo.png"></a>
-		<div class="search_con fl">
-			<input type="text" class="input_text fl" name="" placeholder="搜索商品">
-			<input type="button" class="input_btn fr" name="" value="搜索">
-		</div>
-		<div class="guest_cart fr">
-			<a href="#" class="cart_name fl">我的购物车</a>
-			<div class="goods_count fl" id="show_count">1</div>
 		</div>
 	</div>
 
-	<div class="navbar_con">
-		<div class="navbar">
-			<h1 class="fl">全部商品分类</h1>
-			<ul class="navlist fl">
-				<li><a href="">首页</a></li>
-				<li class="interval">|</li>
-				<li><a href="">手机生鲜</a></li>
-				<li class="interval">|</li>
-				<li><a href="">抽奖</a></li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="center_con clearfix">
-		<ul class="subnav fl">
-			<li><a href="#model01" class="fruit">新鲜水果</a></li>
-			<li><a href="#model02" class="seafood">海鲜水产</a></li>
-			<li><a href="#model03" class="meet">猪牛羊肉</a></li>
-			<li><a href="#model04" class="egg">禽类蛋品</a></li>
-			<li><a href="#model05" class="vegetables">新鲜蔬菜</a></li>
-			<li><a href="#model06" class="ice">速冻食品</a></li>
-		</ul>
-		<div class="slide fl">
-			<ul class="slide_pics">
-				<li><img src="FreshEveryDay/images/slide.jpg" alt="幻灯片"></li>
-				<li><img src="FreshEveryDay/images/slide02.jpg" alt="幻灯片"></li>
-				<li><img src="FreshEveryDay/images/slide03.jpg" alt="幻灯片"></li>
-				<li><img src="FreshEveryDay/images/slide04.jpg" alt="幻灯片"></li>
-			</ul>
-			<div class="prev"></div>
-			<div class="next"></div>
-			<ul class="points"></ul>
-		</div>
-		<div class="adv fl">
-			<a href="#"><img src="FreshEveryDay/images/adv01.jpg"></a>
-			<a href="#"><img src="FreshEveryDay/images/adv02.jpg"></a>
-		</div>
-	</div>
-
-	<div class="list_model">
-		<div class="list_title clearfix">
-			<h3 class="fl" id="model01">新鲜水果</h3>
-			<div class="subtitle fl">
-				<span>|</span>
-				<a href="#">鲜芒</a>
-				<a href="#">加州提子</a>
-				<a href="#">亚马逊牛油果</a>
-			</div>
-			<a href="#" class="goods_more fr" id="fruit_more">查看更多 ></a>
-		</div>
-
-		<div class="goods_con clearfix">
-			<div class="goods_banner fl"><img src="FreshEveryDay/images/banner01.jpg"></div>
-			<ul class="goods_list fl">
-				<li>
-					<h4><a href="#">草莓</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods/goods003.jpg"></a>
-					<div class="prize">¥ 30.00</div>
-				</li>
-				<li>
-					<h4><a href="#">葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods/goods002.jpg"></a>
-					<div class="prize">¥ 5.50</div>
-				</li>
-				<li>
-					<h4><a href="#">柠檬</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods/goods001.jpg"></a>
-					<div class="prize">¥ 3.90</div>
-				</li>
-				<li>
-					<h4><a href="#">奇异果</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods/goods012.jpg"></a>
-					<div class="prize">¥ 25.80</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="list_model">
-		<div class="list_title clearfix">
-			<h3 class="fl" id="model02">海鲜水产</h3>
-			<div class="subtitle fl">
-				<span>|</span>
-				<a href="#">河虾</a>
-				<a href="#">扇贝</a>				
-			</div>
-			<a href="#" class="goods_more fr">查看更多 ></a>
-		</div>
-
-		<div class="goods_con clearfix">
-			<div class="goods_banner fl"><img src="FreshEveryDay/images/banner02.jpg"></div>
-			<ul class="goods_list fl">
-				<li>
-					<h4><a href="#">青岛野生海捕大青虾</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods/goods018.jpg"></a>
-					<div class="prize">¥ 48.00</div>
-				</li>
-				<li>
-					<h4><a href="#">扇贝</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods/goods019.jpg"></a>
-					<div class="prize">¥ 46.00</div>
-				</li>
-				<li>
-					<h4><a href="#">冷冻秋刀鱼</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods/goods020.jpg"></a>
-					<div class="prize">¥ 19.00</div>
-				</li>
-				<li>
-					<h4><a href="#">基围虾</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods/goods021.jpg"></a>
-					<div class="prize">¥ 25.00</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="list_model">
-		<div class="list_title clearfix">
-			<h3 class="fl" id="model03">猪牛羊肉</h3>
-			<div class="subtitle fl">
-				<span>|</span>
-				<a href="#">鲜芒</a>
-				<a href="#">加州提子</a>
-				<a href="#">亚马逊牛油果</a>
-			</div>
-			<a href="#" class="goods_more fr">查看更多 ></a>
-		</div>
-
-		<div class="goods_con clearfix">
-			<div class="goods_banner fl"><img src="FreshEveryDay/images/banner03.jpg"></div>
-			<ul class="goods_list fl">
-				<li>
-					<h4><a href="#">维多利亚葡萄维多利亚葡萄维多利亚葡萄维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-				<li>
-					<h4><a href="#">维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-				<li>
-					<h4><a href="#">维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-				<li>
-					<h4><a href="#">维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="list_model">
-		<div class="list_title clearfix">
-			<h3 class="fl" id="model04">禽类蛋品</h3>
-			<div class="subtitle fl">
-				<span>|</span>
-				<a href="#">鲜芒</a>
-				<a href="#">加州提子</a>
-				<a href="#">亚马逊牛油果</a>
-			</div>
-			<a href="#" class="goods_more fr">查看更多 ></a>
-		</div>
-
-		<div class="goods_con clearfix">
-			<div class="goods_banner fl"><img src="FreshEveryDay/images/banner04.jpg"></div>
-			<ul class="goods_list fl">
-				<li>
-					<h4><a href="#">维多利亚葡萄维多利亚葡萄维多利亚葡萄维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-				<li>
-					<h4><a href="#">维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-				<li>
-					<h4><a href="#">维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-				<li>
-					<h4><a href="#">维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="list_model">
-		<div class="list_title clearfix">
-			<h3 class="fl" id="model05">新鲜蔬菜</h3>
-			<div class="subtitle fl">
-				<span>|</span>
-				<a href="#">鲜芒</a>
-				<a href="#">加州提子</a>
-				<a href="#">亚马逊牛油果</a>
-			</div>
-			<a href="#" class="goods_more fr">查看更多 ></a>
-		</div>
-
-		<div class="goods_con clearfix">
-			<div class="goods_banner fl"><img src="FreshEveryDay/images/banner05.jpg"></div>
-			<ul class="goods_list fl">
-				<li>
-					<h4><a href="#">维多利亚葡萄维多利亚葡萄维多利亚葡萄维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-				<li>
-					<h4><a href="#">维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-				<li>
-					<h4><a href="#">维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-				<li>
-					<h4><a href="#">维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="list_model">
-		<div class="list_title clearfix">
-			<h3 class="fl" id="model06">速冻食品</h3>
-			<div class="subtitle fl">
-				<span>|</span>
-				<a href="#">鲜芒</a>
-				<a href="#">加州提子</a>
-				<a href="#">亚马逊牛油果</a>
-			</div>
-			<a href="#" class="goods_more fr">查看更多 ></a>
-		</div>
-
-		<div class="goods_con clearfix">
-			<div class="goods_banner fl"><img src="FreshEveryDay/images/banner06.jpg"></div>
-			<ul class="goods_list fl">
-				<li>
-					<h4><a href="#">维多利亚葡萄维多利亚葡萄维多利亚葡萄维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-				<li>
-					<h4><a href="#">维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-				<li>
-					<h4><a href="#">维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-				<li>
-					<h4><a href="#">维多利亚葡萄</a></h4>
-					<a href="#"><img src="FreshEveryDay/images/goods.jpg"></a>
-					<div class="prize">¥ 38.00</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="footer">
+	<div class="footer no-mp">
 		<div class="foot_link">
 			<a href="#">关于我们</a>
 			<span>|</span>
@@ -328,25 +48,10 @@
 			<span>|</span>
 			<a href="#">友情链接</a>		
 		</div>
-		<p>CopyRight © 2020 南京天天生鲜信息技术有限公司 All Rights Reserved</p>
-		<p>电话：025-****888    宁ICP备*******8号</p>
+		<p>CopyRight © 2020 Leon All Rights Reserved</p>
+		<p>iphone：16894980426</p>
+		<p>email：434661223@qq.com</p>
 	</div>
-	<script type="text/javascript" src="FreshEveryDay/js/slideshow.js"></script>
-	<script type="text/javascript">
-		BCSlideshow('focuspic');
-		var oFruit = document.getElementById('fruit_more');
-		var oShownum = document.getElementById('show_count');
-
-		var hasorder = localStorage.getItem('order_finish');
-
-		if(hasorder)
-		{
-			oShownum.innerHTML = '2';
-		}
-
-		oFruit.onclick = function(){
-			window.location.href = 'list.html';
-		}
-	</script>
+	
 </body>
 </html>
